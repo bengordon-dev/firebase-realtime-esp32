@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#readingTable {
+  height: 60vh;
+  overflow: scroll;
+  width: 60vw;
+}
+
+#readingTable p {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  text-align: center;
+}
+
+.oddRow {
+  background-color: #f0f0f0;
+}
+
+.evenRow {
+  background-color: #bbb;
+}
